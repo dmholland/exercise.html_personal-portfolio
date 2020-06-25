@@ -1,9 +1,42 @@
 body {
-    background-color: navy;
+    background-color:white;
 }
 
 
 object {
     height: 100vh;
     width: 100vh;
+}
+
+.info{
+    position: relative;
+    width: 80%;
+    left: 20.5%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+header nav{
+position: fixed;
+background-color: rgba(31, 212, 100, 0.959);
+width: 20%;
+height: 100%;
+display:flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+}
+p{
+    display: inline;
+    vertical-align: top;
+    position: absolute;
+    margin: auto;
+}
+p,p{
+    position: relative;
+}
+.together{
+   display: flex;
+   justify-content: space-between;
+    position:absolute;
 }
