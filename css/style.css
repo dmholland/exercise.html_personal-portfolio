@@ -23,11 +23,39 @@ background-color: rgba(31, 212, 100, 0.959);
 width: 20%;
 height: 100%;
 display:flex;
+
+flex-direction: column;
+}
+
+.namepic{
+    position: fixed;
+background-color: rgba(31, 212, 100, 0.959);
+width: 20%;
+height: 60%;
+display:flex;
 align-content: center;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+font-size:xx-large;
+color:white;
 }
+
+.bottominfo{
+    position: fixed;
+background-color: rgba(80, 148, 16, 0.164);
+top:60%;
+width: 20%;
+height: 40%;
+display:flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color:white;
+}
+
+
 .par{
     display: inline;
     margin: auto;
