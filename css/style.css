@@ -9,9 +9,10 @@ object {
 }
 
 .info{
-    position: relative;
-    width: 80%;
-    left: 20.5%;
+    top: 10%;
+    position: fixed;
+    width: 78%;
+    left: 21%;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
@@ -25,18 +26,51 @@ display:flex;
 align-content: center;
 align-items: center;
 justify-content: center;
+flex-direction: column;
 }
-p{
+.par{
     display: inline;
-    vertical-align: top;
-    position: absolute;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+     position:relative;
+    left: 20px;
 }
-p,p{
+.parpar{
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
     position: relative;
+   
 }
 .together{
+    width: 80%;
    display: flex;
    justify-content: space-between;
-    position:absolute;
+   flex-direction: row;
+    position:relative;
+   
+}
+
+
+.smalltitle{
+left: -12%;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+.smalltex{
+    left: 12%;
+}
+
+.under{
+    font-size: small;
+}
+
+h1{
+    color: blue;
+}
+h2{
+    color: blue;
 }
